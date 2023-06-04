@@ -1,0 +1,26 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    animation: direita 4s ease-in-out infinite;
+
+}
+
+@keyframes direita {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(500px);
+    }
+}
+
+
